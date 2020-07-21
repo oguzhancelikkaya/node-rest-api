@@ -1,0 +1,242 @@
+{
+	"id": "9965923d-d64d-293c-dbef-18f3bc510203",
+	"name": "AWS Node.js Server",
+	"description": "AWS Node.js Server",
+	"order": [
+		"5d2092bb-fc70-0bae-4c87-5aa183d97d7f",
+		"18b4c81f-2713-4a89-be1b-381a33eeba9e",
+		"b1983ebd-3a0f-5fc7-fc9b-a32361dbbc00",
+		"ece23b2c-515f-cb94-a6c5-b4fc308b48ab",
+		"47eea815-1dc3-a2de-343b-2e5d9f83232c",
+		"aae20e5f-5444-f08b-1322-c64ea52c80cd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1595348724050,
+	"owner": "1513274",
+	"public": false,
+	"requests": [
+		{
+			"id": "18b4c81f-2713-4a89-be1b-381a33eeba9e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/user/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9965923d-d64d-293c-dbef-18f3bc510203",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/user/login",
+			"description": "AWS Node Login",
+			"descriptionFormat": "html",
+			"time": 1595348796653,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"email\": \"xorion@gmail.com\",\n  \"password\": \"xorion\"\n}"
+		},
+		{
+			"id": "47eea815-1dc3-a2de-343b-2e5d9f83232c",
+			"headers": "Content-Type: application/json\nauth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/5f15d912b74eb26bde433c7f",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "9965923d-d64d-293c-dbef-18f3bc510203",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/5f15d912b74eb26bde433c7f",
+			"description": "AWS Node UPDATE POST DETAIL AFTER LOGGED IN",
+			"descriptionFormat": "html",
+			"time": 1595348987593,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"subject\": \"Training 1\",\n  \"article\": \"This is an example article for the first training post 1\"\n}"
+		},
+		{
+			"id": "5d2092bb-fc70-0bae-4c87-5aa183d97d7f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/user/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9965923d-d64d-293c-dbef-18f3bc510203",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/user/register",
+			"description": "AWS Node Register",
+			"descriptionFormat": "html",
+			"time": 1595348748814,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"name\": \"xorion\",\n  \"email\": \"xorion@gmail.com\",\n  \"password\": \"xorion\"\n}"
+		},
+		{
+			"id": "aae20e5f-5444-f08b-1322-c64ea52c80cd",
+			"headers": "Content-Type: application/json\nauth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/5f17183d00f32c186810b24b",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "9965923d-d64d-293c-dbef-18f3bc510203",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/5f17183d00f32c186810b24b",
+			"description": "AWS Node DELETE POST AFTER LOGGED IN",
+			"descriptionFormat": "html",
+			"time": 1595349096071,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t    \"tags\": [\n            \"second\",\n            \"example\",\n            \"training\"\n        ],\n        \"subject\": \"Second Post 2\",\n        \"article\": \"This is an example second article for the second training post 2\"\n}"
+		},
+		{
+			"id": "b1983ebd-3a0f-5fc7-fc9b-a32361dbbc00",
+			"headers": "Content-Type: application/json\nauth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "9965923d-d64d-293c-dbef-18f3bc510203",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/",
+			"description": "AWS Node GET POSTS AFTER LOGGED IN",
+			"descriptionFormat": "html",
+			"time": 1595348892781,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"email\": \"xorion@gmail.com\",\n  \"password\": \"xorion\"\n}"
+		},
+		{
+			"id": "ece23b2c-515f-cb94-a6c5-b4fc308b48ab",
+			"headers": "Content-Type: application/json\nauth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/5f15d912b74eb26bde433c7f",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "9965923d-d64d-293c-dbef-18f3bc510203",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/5f15d912b74eb26bde433c7f",
+			"description": "AWS Node GET POST DETAIL AFTER LOGGED IN",
+			"descriptionFormat": "html",
+			"time": 1595348924943,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"email\": \"xorion@gmail.com\",\n  \"password\": \"xorion\"\n}"
+		}
+	]
+}
