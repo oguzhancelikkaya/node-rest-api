@@ -31,7 +31,6 @@ Body:
 http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/
 
 Headers:
-Content-Type: application/json
 auth-token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4
 
 Body:
@@ -46,7 +45,6 @@ Body:
 http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/
 
 Headers:
-Content-Type: application/json
 auth-token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4
 
 
@@ -55,7 +53,6 @@ auth-token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYz
 http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/:postId
 
 Headers:
-Content-Type: application/json
 auth-token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4
 
 
@@ -64,7 +61,6 @@ auth-token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYz
 http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/:postId
 
 Headers:
-Content-Type: application/json
 auth-token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4
 
 
@@ -73,5 +69,4 @@ auth-token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYz
 http://noderestapi-env.eba-v5bv8qbb.eu-central-1.elasticbeanstalk.com/api/posts/:postId
 
 Headers:
-Content-Type: application/json
 auth-token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjE3MTZiNzAwZjMyYzE4NjgxMGIyNGEiLCJpYXQiOjE1OTUzNDg3NjN9.eoY9Fm1Hi2KnDJwG26sGwNgAtzzOpCV6rKULClxjKi4
