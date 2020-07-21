@@ -21,4 +21,5 @@ app.use('/api/user', authRoute);
 
 app.use('/api/posts', postRoute);
 
-app.listen(3000, () => console.log('Server OK!'));
+const port = process.env.port || 3000;
+app.listen(port, () => console.log('Server OK!'));
