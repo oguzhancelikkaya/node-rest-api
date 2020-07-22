@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const verify = require('../middlewares/verifyToken');
+const verify = require('../utils/verifyToken');
 const Post = require('../models/post');
 
 router.get('/', verify, async (req,res)=>{
